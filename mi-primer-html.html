@@ -1,0 +1,102 @@
+<!--  
+<!DOCTYPE html>
+El va a decir al navegador que el documento está escrito en HTML5
+-->
+<!DOCTYPE html>
+<!--  
+<html lang="en">
+Es el elemento raíz que indica que el contenido está en que idioma está en este caso "en" es de inglés
+-->
+<html lang="en">
+<!-- 
+<head>
+Contiene información que el navegador usa pero que los usuarios no ven directamente.
+Para colocar información adicional, como creador de la página, descripción general de la página, etc
+ -->
+
+<head>
+    <!-- 
+<meta charset="UTF-8">
+Como tiene que interpretar los caracteres en pantalla como la ñ o carácteres raros, principalmente 
+en navegadores viejitos. UTF-8 es un estandar.
+-->
+    <meta charset="UTF-8">
+    <!--
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Escala de pantalla, que tome el tamaño del "viewport" que tome de referencia el espacio disponible 
+en la pantalla y a la escala 1
+-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  
+<title>
+Es el titulo de la pantalla visto en la pestaña del navegador-->
+    <title>Mi primera página.</title>
+<!--
+    <link rel="icon" type="image/x-icon" href="./IMAGENES/ICONO.png">: 
+Esta línea indica al navegador dónde encontrar el icono que debe mostrar junto al título de la página.
+rel="icon": Define que este enlace es un icono.
+type="image/x-icon": Especifica el tipo de archivo; image/x-icon es el tipo MIME para un favicon.
+href="favicon.ico": Ruta del archivo del icono.-->
+
+    <link rel="icon" type="image/x-icon" href="./IMAGENES/ICONO.png">
+</head>
+
+<!--  
+<body>
+Es el área principan donde se coloca el contenido visible (texto, imagenes, parrafos, etc.) 
+  -->
+
+<body>
+    <!-- h1: el título principal nombrado. Pueden haber h2: para subtitulos etc.-->
+    <h1> Mi primera página web</h1>
+    <!-- p: Esta es una etiqueta para indicar que es un parrafo -->
+    <p>Este representa un parrafo de texto. Niño.</p>
+    <p>Este representa un parrafo de texto. Niño.</p>
+    <span> No se que hace pero creo que junta varios textos.</span> <!--Incluir texto que esa parte es de otro formato-->
+    <h2> Necesito un subtítulo.</h2>
+    <h3> Esto que es??</h3>
+
+    <h2>Esta es una lista ordenada:</h2>
+        <ol>  <!--ol:Significa Ordered List se inicia la lista ordenada-->
+            <li>Primer elemento</li> <!-- li:Define el elemento de una lista-->
+            <li>Segundo elemento</li>
+            <li>Tercer elemento</li>
+        </ol>
+    <h2>Esta es una lista no ordenada:</h2>     
+        <ul>  <!--ul_Significa Unordered List se inicia la lista ordenada-->
+            <li>Elemento A</li>
+            <li>Elemento B</li>
+            <li>Elemento C</li>
+        </ul>
+    <h2>Esta es una lista de definicion:</h2>     
+        <dl>  <!--ul_Significa Unordered List se inicia la lista ordenada-->
+            <dt>Concepto 1:</dt>
+            <dd>Esta es la definición del primer concepto</dd>
+            <dt>Concepto 2:</dt>
+            <dd>Esta es la definición del seguno concepto</dd>
+        </dl>
+    <h2>Esta es una imagen:</h2>
+    <!--img: agrega imagenes, no necesita cierre img, requiere de dos tributos 
+    src: source, dirección en donde se encuentra la imagen que queremos desplegar 
+    alt: alternative, el texto en caso de que no encuentre la imagen que se quiere desplegar 
+    title:texto que se despliega cuando te posiscionas encima de la imagen
+    . de la dirección de la imagen se refiere a que la imagen esta en la carpeta
+    actual, pero si pones ../ se va dos direcciones antes o ../../ para mas lejos
+    El primer ejemplo es apartir de repositorios locales
+    El segundo es a partir de una pagina web
+    -->
+    <img src="./IMAGENES/panadero.jpg" 
+         alt="Ahh no se ve" 
+         title="Panadero"
+         height="300px"
+         > 
+    <figcaption>Panadero</figcaption>
+    <img src="https://img.freepik.com/fotos-premium/panaderia-pan-hd-8k-papel-pared-imagen-fotografica-stock_1066384-343.jpg" 
+         alt="Ahh no se ve" 
+         title="Hogaza de pan"
+         height="300px"
+         >
+    <figcaption>Pan de hogaza</figcaption>
+</body>
+
+</html>
