@@ -1,0 +1,34 @@
+Los commits es la confirmacion de uno o mas cambios del proyecto,
+por convencion dichos cambios corresponden a:
+a. Una nueva caracteríastica o funcionalidad
+b. Arreglo de uno o más errores 
+c. Optimización del código
+d. Actualización de archivos
+
+Es preferible que los cambios de los archivos que se agregan tengan un objetivo en común
+El * nos ayuda para agregar archivos que tengan la mismo tipo de archivo o que empiecen con el mismo nombre
+
+git add--> añade
+git rested--> quita elementos
+git commit -m "Mensaje del commit"  --> Añade la descripcion en un enunciado corto
+
+¿Cuáles son las buenas prácticas de un mensaje de commit?
+Para que un mensaje de commit siempre se entienda
+1. Título de menos de 150 caractéres en total, confirmar menos cambios puede ayudar con esto.
+2. Primera letra del título en mayúscula.
+3. Modo imperativo:
+    a.Similares a los commit realizados por git merge y git revert.
+    b. Aumenta la velocidad de comprension de los cambios realizados.
+
+4. Cuerpo del mensaje (Opcional)
+    a. Menos de 100 caractéres.
+    b. Explica QUE es lo que hacen tus cambios pero, más importante POR QUE es necesario integrarlos.
+    c. Espacio en blanco entre el título y el cuerpo del mensaje.
+    d. Separar los párrafos en el cuerpo con líneas en blanco.
+    e. Utilizar guiones(-) para listar puntos específicos.
+
+¿Por que querría ignorar archivos? .gitignore
+-Son libreías de terceros
+-Son archivos demasiado grandes
+-Se pueden obtener o instalar con relativa facilidad
+-No serán modificados directamente por nosotros.
