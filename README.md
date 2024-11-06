@@ -29,4 +29,5 @@ Este proyecto consiste en una página web simple creada con HTML. Es una prácti
   
 ## Autor
 
--María de Jesús Fuentes
+- Nombre: María de Jesús Fuentes
+- GitHUb: ChuchitaFuentes
