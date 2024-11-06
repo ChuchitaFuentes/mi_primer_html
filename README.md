@@ -25,7 +25,7 @@ Este proyecto consiste en una página web simple creada con HTML. Es una prácti
 - Enlaces internos y externos.
 - Listas ordenadas y desordenadas.
 - Ejemplo de imágenes y enlaces.
-- Se pusieron comentarios que describen de manera 
+- Se pusieron comentarios que describen de manera sencilla el funcionamiento de la las etiquetas.
   
 ## Autor
 
