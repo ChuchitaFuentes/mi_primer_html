@@ -25,7 +25,7 @@ Para ver y editar este proyecto en tu máquina local:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/ChuchitaFUentes/mi-primer-proyecto-html.git
+   git clone https://github.com/ChuchitaFuentes/mi_primer_html.git
 
 2. Abre el archivo `mi-primer-html.html` en tu navegador.
 
